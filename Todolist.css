@@ -1,0 +1,19 @@
+.Todolist .todosearchbar {
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.Todolist .todosearchbar:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(11, 53, 37);
+}
+
+.Todolist {
+    font-size: larger;
+    font-style: normal;
+}
