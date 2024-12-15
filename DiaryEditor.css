@@ -1,0 +1,68 @@
+.DiaryEditor {
+    text-align: center;
+    width: 100%;
+    height: 588px;
+}
+
+
+.DiaryEditor textarea {
+    flex: 2;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+.DiaryEditor textarea:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.DiaryEditor button {
+    position: absolute;
+    cursor: pointer;
+    width: 60px;
+    height: 35px;
+    border: none;
+    background-color: rgb(14, 82, 42);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    right: 30px;
+
+}
+
+.diarytextareasize {
+    width: 95%;
+    height: 450px;
+    min-height: 400px;
+    resize: none;
+    font-size: 16px;
+    line-height: 1.5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.error_message {
+    color: red;
+    font-size: 0.95em;
+    margin: 4px auto 4px 30px;
+
+}
+
+.btn_text {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+}
+
+.count {
+    position: absolute;
+    margin-top: 8px;
+    text-align: right;
+    color: black;
+    top: 30px;
+    right: 30px;
+}

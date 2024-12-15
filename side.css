@@ -1,0 +1,17 @@
+.item_all {
+    padding: 18px;
+    background-color: rgb(71, 112, 80);
+    border: 1px solid black;
+    width: 358px;
+    height: 300px;
+    color: white;
+}
+
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 16px;
+
+}
